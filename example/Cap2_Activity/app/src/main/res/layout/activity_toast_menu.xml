@@ -4,14 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Toast_Menu_Activity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="你可以在这里看到 Toast 和 Menu 的用法，通过点击右上角的按钮菜单，尝试一下吧"/>
+        android:text="你可以在这里看到 Toast 和 Menu 的用法，通过点击右上角的按钮菜单，尝试一下吧" />
 
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="256dp"
+        android:src="@drawable/menu_toast" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="相信看上面的图片你已经明白了吧[旺柴]，Toast的实现很简单，就三步，调用Toast，调用他的创建方法，传入参数"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="至于Menu呢，稍微复杂一点：①创建menu文件夹，②在里面设置你的一个menu布局，③在你的activity中重写两个方法，展现menu的方法，选择传入哪个menu，设置menu的点击事件"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="186dp"
+        android:src="@drawable/menu_item" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="但是我们要注意！kotlin的语法糖过于智能，事实上会让人莫名其妙的犯糊涂，我们要研究清楚。kotlin会自动在后台为你调用一个类的get或set方法，如果你想了解清楚，可以把他转换为java看看是如何实现的"/>
 
 </LinearLayout>

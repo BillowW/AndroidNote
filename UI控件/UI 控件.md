@@ -6,7 +6,7 @@
 
 #### 0. 布局继承结构
 
-![image-20210405212511058](D:\Desktop\Learning\Code\Android\笔记\UI控件\布局继承结构.png)
+![image-20210405212511058](图\布局继承结构.png)
 
 
 

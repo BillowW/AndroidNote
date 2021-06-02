@@ -27,6 +27,9 @@ class Toast_Menu_Activity : AppCompatActivity() {
 
 //        这里也是一样的item实际上调用了get方法
         when (item.itemId) {
+
+//          Toast很简单，首先通过makeText设置一个Toast对象，然后通过show方法展现出来即可
+//          不过要留意，makeText方法接受三个参数，context对象，文本内容和展示时长，内置两个常量
             R.id.show_menu -> Toast.makeText(this, "You clicked Menu",
                 Toast.LENGTH_SHORT).show()
             R.id.show_toast -> Toast.makeText(this, "You clicked Toast",

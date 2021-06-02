@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Intent_4Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/downBu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="向下传递数据" />
+
+            <Button
+                android:id="@+id/upBu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="向上返回数据" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="在这里你可以看到Activity如何通过Intent来传递数据" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="127dp"
+                android:src="@drawable/intent4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上图则是在activity设置Intent时，加入putExtra，添加数据" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:src="@drawable/intent4_4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="随后在被传递数据的页面中添加接收数据的代码，用intent的getExtra方法" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:src="@drawable/intent4_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="如上图，在接收返回信息的activity中设置Intent事件为接收传入数据" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="118dp"
+                android:src="@drawable/intent4_6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:text="然后如上图，重写request返回方法，1是我们intent中设置的返回码，用来标识返回数据，然后设置数据" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="106dp"
+                android:src="@drawable/intent4_2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="在需要返回信息的页面中，设置Intent来传递数据先放会数据，然后setRequest，然后结束activity" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

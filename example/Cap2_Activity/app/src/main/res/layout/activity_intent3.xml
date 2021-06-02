@@ -5,36 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Intent_Activity">
+    tools:context=".Intent_3">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="欢迎来到intent的学习，事实上你能到达这里也是intent的功劳，不过这里将会介绍更多有关intent的设置，包括显式和隐式以及数据传输方法" />
+        android:text="这里将会介绍一些隐式Intent的其他用法" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="158dp"
+        android:src="@drawable/intent3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上面是打开网页的代码，这是个隐式Intent的用法，设置动作，传入数据"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="173dp"
+        android:src="@drawable/intent3_2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上面的代码是在AndroidManifest中设置该Activity的动作，让他可以响应web操作"/>
 
     <Button
-        android:id="@+id/intent_1"
+        android:id="@+id/new_web"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="显示intent" />
+        android:text="打开网页" />
 
-    <Button
-        android:id="@+id/intent_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="隐式intent" />
 
-    <Button
-        android:id="@+id/intent_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="更多用法" />
-
-    <Button
-        android:id="@+id/intent_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="数据传递" />
 
 
 </LinearLayout>
