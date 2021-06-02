@@ -1,0 +1,2 @@
+rootProject.name = "Cap2_Activity"
+include ':app'

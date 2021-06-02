@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="事实上我想做一个底部导航栏，但是时间比较紧张...这章内容就简单点用几个按钮实现吧" />
+
+    <Button
+        android:id="@+id/toTM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To T/M" />
+
+    <Button
+        android:id="@+id/toIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Intent" />
+
+    <Button
+        android:id="@+id/toKill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Advanced Kill" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不要介意界面比较丑，毕竟这是第一个作品...这里会提到Toast,Intent,生命周期，和一些高级技巧，不过都是基于郭神那本书的内容"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="作为首页，这里会简单介绍一点比较基础的内容——Android Manifest 注册 Activity"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="138dp"
+        android:src="@drawable/android_manifest" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have a look,图片中有两个activity，但是有一点不同，Main Activity中有个 intent-filter属性，
+        其中的action书名设置为MAIN和category属性设置为LAUNCHER即认为这是一个主活动，不过不用担心，一般来说AndroidManifest会自动注册活动"/>
+
+
+</LinearLayout>
