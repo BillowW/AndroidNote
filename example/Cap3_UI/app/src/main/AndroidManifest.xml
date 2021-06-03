@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Cap3_UI">
-        <activity android:name=".CustomControlActivity"></activity>
+        <activity android:name=".RecyclerViewExample3"></activity>
+        <activity android:name=".RecyclerViewExample2" />
+        <activity android:name=".RecyclerViewExample1" />
+        <activity android:name=".ListViewExample2Acitvity" />
+        <activity android:name=".ListViewExample1Activity" />
+        <activity android:name=".FrameLayoutActivity" />
+        <activity android:name=".RelativeLayoutActivity" />
+        <activity android:name=".LinearLayoutActivity" />
+        <activity android:name=".CustomControlActivity" />
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".ListViewActivity" />
         <activity android:name=".LayoutActivity" />
