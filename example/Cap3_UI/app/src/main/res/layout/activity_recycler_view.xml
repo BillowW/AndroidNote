@@ -18,6 +18,21 @@
         android:id="@+id/recycler_view_ex1"
         android:text="样本1"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:src="@drawable/recyclerview1_1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:src="@drawable/recyclerview1_2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="事实上基本和ListView这类AdapterView类似的"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

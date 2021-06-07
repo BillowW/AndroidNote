@@ -1,9 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CustomControlActivity">
+    tools:context=".CustomControlActivity"
+    android:orientation="horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--    引入自定义布局-->
+            <include layout="@layout/title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="如界面所示，我们已经简单的完成了一个自定义标题栏的设计，先定义一个布局，再引入即可"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="243dp"
+                android:src="@drawable/customlayout" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="93dp"
+                android:src="@drawable/includecustomlayout" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="但是当我们想要给自定义的布局设置一些功能的话，可以在每个Activity单独设置，也可以统一注册"/>
+
+            <com.example.cap3_ui.TitleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:src="@drawable/customlayout2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="243dp"
+                android:src="@drawable/titlelayoutkt" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="从上面的图片可以看到先创建一个kt文件，继承自Layout，然后渲染xml文件，最后在xml文件中引入"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

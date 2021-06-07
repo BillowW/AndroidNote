@@ -1,0 +1,2 @@
+rootProject.name = "Cap4_Fragment"
+include ':app'

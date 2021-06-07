@@ -7,21 +7,104 @@
     android:orientation="vertical"
     tools:context=".ListViewActivity">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="这里将看到ListView控件的使用"/>
+        android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/list_view_ex1"
-        android:text="样本1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/list_view_ex2"
-        android:text="样本2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="这里将看到ListView控件的使用"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_view_ex1"
+                android:text="样本1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="在上面的样例1中，我们可以看到最基本的ListView的使用"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:src="@drawable/listview1_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:src="@drawable/listview1_2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:src="@drawable/listview1_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="通过上面图片的步骤，我们就能设置一个简单的ListView了"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_view_ex2"
+                android:text="样本2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上面则提供了一个定制化的ListView的样本，定制化的ListView大致与样本一步骤类似，但是需要自己创建适配器类型，泛型和布局文件"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:src="@drawable/listview2_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="292dp"
+                android:src="@drawable/listview2_2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="249dp"
+                android:src="@drawable/listview2_3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:src="@drawable/listview2_4" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:src="@drawable/iniffruits" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上面具体描述了定制ListView的步骤,而下面将介绍实现ListView点击事件"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:src="@drawable/listviewclick" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="其实也很简单,设置setOnItemClickListener方法即可"/>
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
