@@ -18,8 +18,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, Fragment2::class.java))
         }
 
-        button3.setOnClickListener {
-            startActivity(Intent(this, Fragment3::class.java))
-        }
     }
 }

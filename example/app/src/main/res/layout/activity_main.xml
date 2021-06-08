@@ -7,22 +7,96 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button1"
-        android:text="样例1"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:text="样例2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:text="样例3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="这里将介绍如何使用Fragment"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:text="样例1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上面的样例介绍了如何使用最简单的fragment，下面的图片展开了具体步骤"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fragment1_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="第一步要为我们fragment为我们放置的元素制作布局"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:src="@drawable/fragment1_3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/fragment1_1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:text="样例2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上面的样例介绍了如何动态加载fragment布局，并把fragment添加到Activity中"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="按上述步骤做好一个fragment后看下面的图片"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="221dp"
+                android:src="@drawable/fragment2_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上面加入了一个FrameLayout，其他Layout也行，后面我们实现在这个Layout中动态加载布局"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:src="@drawable/fragment2_2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="206dp"
+                android:src="@drawable/fragment2_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="至于动态更换布局，只要设置一个文件中，加入同名layout文件即可"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
 
 </LinearLayout>
