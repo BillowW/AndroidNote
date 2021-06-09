@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:text="send broadcast"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="这里将简单介绍Broadcast的用法，下面介绍如何接收系统广播"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="88dp"
+                android:src="@drawable/broadcast1_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="71dp"
+                android:src="@drawable/broadcast2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="148dp"
+                android:src="@drawable/broadcast3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="119dp"
+                android:src="@drawable/broadcast4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上面描述的是动态注册接收器，然后接收系统官博的，下面介绍一定义广播"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="136dp"
+                android:src="@drawable/broadcast2_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="134dp"
+                android:src="@drawable/broadcast2_2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="132dp"
+                android:src="@drawable/broadcast2_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上面就实现了自定义广播，先创建广播类设置广播动作，然后修改广播接收名，最后发送广播"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="下面将接收，自定义广播中的有序发送"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:src="@drawable/broadcast3_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="在android manifest中设置广播的优先级即可实现有序广播"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/broadcast3_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="实现有序广播后，可以通过该方法截取广播，不让其继续传播"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
