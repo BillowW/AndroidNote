@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SQLLite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/createDatabase"
+                android:text="Create Database"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/upgradeDatabase"
+                android:text="Upgrade Database"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addData"
+                android:text="Add Data"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="下面介绍如何创建数据库"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="71dp"
+                android:src="@drawable/sql3_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="171dp"
+                android:src="@drawable/sql3_2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="89dp"
+                android:src="@drawable/sql3_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="下面介绍如何更新数据库进行增删改查"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="212dp"
+                android:src="@drawable/sql3_4" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

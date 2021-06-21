@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PermissionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="这里将介绍有关安卓中的权限机制"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:src="@drawable/con1_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上面介绍的是程序一开始则要申请的权限 ,在Manifest中申请 ,下面介绍程序在运行期间如何申请权限"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/makeCall"
+            android:text="Call"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="349dp"
+            android:src="@drawable/con1_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="调用很简单，首先判断有无授予权限，没有则调用权限"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="354dp"
+            android:src="@drawable/con1_3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="接着重写接收方法，辨识是否同意授权"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="205dp"
+            android:src="@drawable/con1_4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="然后就是写功能了"/>
+
+    </LinearLayout>
+
+</ScrollView>

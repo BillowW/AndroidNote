@@ -1,0 +1,2 @@
+rootProject.name = "cap8_media"
+include ':app'

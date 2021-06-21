@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cap7_contentProvider</string>
+    <string name="content_resolver_about">
+        Content Resolver增删改查与SQLLiteDB差不多，但是不同的是
+         它不传输表名，传输的是Uri参数，里面包括authority来标识应用
+         path来标识同一应用程序的表
+    </string>
+    <string name="content_resolver_start">
+        这里将介绍有关Content Resolver的基本用法，想要访问ContentProvide中的数据则要通过这个类
+    </string>
+    <string name="title_activity_cpntetn_provider">CpntetnProviderActivity</string>
+    <string name="readme">这里将介绍如何跨程序间共享数据，第一个样例展示有关权限的内容，因为获取其他程序内容可能有关权限隐私；第二个样例展示如何获取其他程序的共享数据；第三个样例展示如何给自己的程序设置共享数据</string>
+</resources>

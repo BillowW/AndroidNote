@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".File">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:hint="Type something here"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/showText"
+                android:text="暂无数据"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="216dp"
+                android:src="@drawable/sql1_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="144dp"
+                android:src="@drawable/sql1_2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上面介绍了如何把数据存储为文件，下面介绍如何读取数据"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="292dp"
+                android:src="@drawable/sql1_3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="134dp"
+                android:src="@drawable/sql1_4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContentProviderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/addData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add To Book" />
+
+        <Button
+            android:id="@+id/queryData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Query From Book" />
+        <Button
+            android:id="@+id/updateData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Book" />
+        <Button
+            android:id="@+id/deleteData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete From Book" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下面将介绍如何设置数据共享"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cap3_1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="首先要才提供数据的程序中，新建一个Provider然后重写这些方法"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

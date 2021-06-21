@@ -5,25 +5,126 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="066e6e55-41e0-4fe3-b0a1-d958660cf89c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cap6_sql/File.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_file.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cap6_sql/MyContentProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cap6_sql/MyDatabaseHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cap6_sql/SQLLite.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cap6_sql/SharedPreferences.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql3_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql3_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sql3_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shared_preferences.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sqllite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/androidTest/java/com/example/cap7_contentprovider/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/java/com/example/cap7_contentprovider/ContentProviderActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/java/com/example/cap7_contentprovider/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/java/com/example/cap7_contentprovider/PermissionActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/java/com/example/cap7_contentprovider/ResolverActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/cap3_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/con1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/con1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/con1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/con1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/con2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/con2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/con2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/con2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/layout/activity_content_provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/layout/activity_permission.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/layout/activity_resolver2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/app/src/test/java/com/example/cap7_contentprovider/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cap7_contentProvider/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/app/src/main/java/com/example/cap8_media/NotificationActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/app/src/main/res/drawable/large_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/app/src/main/res/drawable/small_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cap8_media/app/src/main/res/layout/activity_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cap6_sql/File.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cap6_sql/File.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cap6_sql/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cap6_sql/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_file.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_file.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@D:\Program\avd\.android\avd\Pixel_4_API_30_1.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@D5F0219110002271]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -37,16 +138,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@D:\Program\avd\.android\avd\Pixel_4_API_30_1.avd" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-09T05:26:56.772367900Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@D5F0219110002271" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-09T05:44:51.363801900Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../Program/androidsdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.1896536663">
+      <recent name="com.example.cap6_sql" />
+    </key>
     <key name="android.template.-1452399875">
       <recent name="com.example.cap6_sql" />
+    </key>
+    <key name="android.template.-1519331748">
+      <recent name="com.example.cap6_sql" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Learning\note\android\example\Cap6_SQL\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunManager">
@@ -136,13 +252,55 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="持久化技术" />
     <option name="LAST_COMMIT_MESSAGE" value="持久化技术" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="238" y="196" key="#PSD" timestamp="1623306584204">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="238" y="196" key="#PSD/0.0.1440.900@0.0.1440.900" timestamp="1623306584204" />
+    <state x="506" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1623305782798">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="506" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-4096.0.2048.1152@0.0.1440.900" timestamp="1623217008973" />
+    <state x="506" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1623305782798" />
+    <state x="451" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623721820044">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="451" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-4096.0.2048.1152@0.0.1440.900" timestamp="1623721820044" />
     <state x="327" y="33" key="CommitChangelistDialog2" timestamp="1623216198759">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="327" y="33" key="CommitChangelistDialog2/0.0.1440.900/-4096.0.2048.1152@0.0.1440.900" timestamp="1623216198759" />
+    <state x="501" y="205" key="FileChooserDialogImpl" timestamp="1623720564190">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="501" y="205" key="FileChooserDialogImpl/0.0.1440.900/-4096.0.2048.1152@0.0.1440.900" timestamp="1623720564190" />
+    <state width="1398" height="499" key="GridCell.Tab.0.bottom" timestamp="1623721786913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="499" key="GridCell.Tab.0.bottom/0.0.1440.900/-4096.0.2048.1152@0.0.1440.900" timestamp="1623721786913" />
+    <state width="1398" height="499" key="GridCell.Tab.0.center" timestamp="1623721786913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="499" key="GridCell.Tab.0.center/0.0.1440.900/-4096.0.2048.1152@0.0.1440.900" timestamp="1623721786913" />
+    <state width="1398" height="499" key="GridCell.Tab.0.left" timestamp="1623721786912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="499" key="GridCell.Tab.0.left/0.0.1440.900/-4096.0.2048.1152@0.0.1440.900" timestamp="1623721786912" />
+    <state width="1398" height="499" key="GridCell.Tab.0.right" timestamp="1623721786913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="499" key="GridCell.Tab.0.right/0.0.1440.900/-4096.0.2048.1152@0.0.1440.900" timestamp="1623721786913" />
+    <state x="222" y="95" key="SettingsEditor" timestamp="1623306762035">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="222" y="95" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1623306762035" />
+    <state x="385" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1623396282416">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="193" width="672" height="678" key="search.everywhere.popup/0.0.1440.900/-4096.0.2048.1152@0.0.1440.900" timestamp="1623396282416" />
   </component>
 </project>

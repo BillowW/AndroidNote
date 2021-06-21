@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/contactsView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="下面介绍如何获取程序的共享数据"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="74dp"
+                android:src="@drawable/con2_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:src="@drawable/con2_2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="117dp"
+                android:src="@drawable/con2_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上面步骤和获取函数都是一样的下面则是具体的功能函数"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="286dp"
+                android:src="@drawable/con2_4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="通过query方法传入Uri参数查找数据库，其实和sql大同小异。然后逐行读取并添加数据，最后要close"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
